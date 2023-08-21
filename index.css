@@ -1,0 +1,84 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Poppins, sans-serif;
+    font-weight: 200;
+}
+
+main {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+
+h1, h2 {
+    font-weight: 200;
+    margin: 0px;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 1em;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+a {
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: 300;
+}
+
+@media screen and (min-width: 350px) {
+    :root {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 450px) {
+    :root {
+        font-size: 24px;
+    }
+
+    main {
+        gap: 60px;
+        margin-left: 10px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    :root {
+        font-size: 32px;
+    }
+
+    main {
+        gap: 80px;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    :root {
+        font-size: 46px;
+    }
+
+    main {
+        gap: 160px;
+        margin-left: 30px;
+    }
+}
